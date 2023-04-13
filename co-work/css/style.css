@@ -1,0 +1,458 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+header{
+    /* color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+width: 100%;
+height:50vh;
+opacity: 0.9;
+border: 1px solid black;
+background: url('../images/bg3.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+header .container-header{
+    width: 80%;
+    height: auto;
+    /* border: 1px solid red; */
+}
+.menubar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    /* border: 1px solid blue; */
+}
+.menubar .logo{
+    flex-basis: 10%;
+    height: auto;
+    /* border: 1px solid greenyellow; */
+}
+.logo h5{
+    padding: 15px 0px;
+    font-family: 'Baloo Bhai';
+
+    color:whitesmoke;
+    font-size: 20px;
+}
+.menu {
+    flex-basis: 75%;
+    height: auto;
+}
+.menu ul{
+    height: auto;
+    /* border: 1px solid yellow; */
+}
+.menu ul li{
+    padding: 10px;
+display: inline-block;
+}
+.menu ul li a{
+    font-family: 'Baloo Bhai';
+
+    color:whitesmoke;
+    font-size: 25px;
+    padding: 2px 15px;
+    transition: 2s;
+}
+.menu ul li a:hover{
+text-decoration: underline;
+color: red;
+}
+.menu .icons{
+    flex-basis: 10%;
+    border: 1px solid yellow;
+
+}
+.icons i{
+    font-size: 22px;
+    color:whitesmoke;
+    padding: 5px 15px;
+    transition: 2s;
+}
+
+.icons i:hover{
+color: red;
+transform: rotate(360deg);
+}
+.description{
+    /* border: 1px solid red; */
+    width: 300px;
+    height: auto;
+    /* padding: 5px 20px; */
+    color: black;
+    text-align: center;
+    margin:50px auto 0px auto;
+}
+.description h3{
+    font-size: 22px;
+    text-decoration: underline;
+}
+.description p{
+    padding: 2px 15px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 25px;
+    color: whitesmoke;
+}
+.description #btn{
+    transition-property: box-shadow,transform;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color:whitesmoke;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* font-family: 'Baloo Bhai'; */
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    transition-duration: 0.3s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+}
+.description #btn:hover,#btn:focus,#btn:active{
+box-shadow: 0 0 20px rgba(0,0, 0, 0.5);
+transform: scale(1.1);
+}
+
+/* benefit */
+.benefit{
+    
+    width: 100%;
+    height: 70vh;
+    /* border: 1px soild black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.benefit-container{
+    height: auto;
+    width: 80%;
+    /* border: 1px solid red; */
+}
+.benefit-container h5,h3{
+    text-align: center;
+}
+.benefit-container h5{
+    color: brown;
+    font-size: 18px;
+    text-decoration: underline;
+}
+.benefit-container .benefit-menu{
+    height: auto;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.benefit-menu .benefit-icon{
+flex-basis: 25%;
+height: auto;
+text-align: center;
+/* border:1px solid green; */
+padding: 2px 10px;
+margin-top: 15px;
+}
+.benefit-icon i{
+    color: green;
+    font-size: 50px;
+    transition: 2s;
+}
+.benefit-icon i:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.benefit-icon h6{
+    margin-top: 5px;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.benefit-icon p{
+    text-align: center;
+}
+
+/* about */
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* border: 1px solid black; */
+    height: 70vh;
+}
+.about-container{
+    width: 80%;
+    /* border: 1px solid red; */
+    height: auto;
+}
+.about-container h5{
+    color: brown;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: underline;
+
+}
+.about-container .abt-p{
+    font-size: 28px;
+    font-weight: bolder;
+    font-family: 'Raleway', sans-serif;
+    /* padding: 0px 2px; */
+}
+.about-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+}
+.about-child{
+    flex-basis: 45%;
+    height: auto;
+    /* border: 1px solid orange; */
+}
+.about-child p{
+    text-align: center;
+    padding: 2px 15px;
+    line-height: 30px;
+    font-size: 22px;
+}
+.about-child img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+}
+.abt-img{
+    border-radius: 10%;
+}
+/* gallery */
+.gallery-sec{
+    width: 100%;
+    height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.gallery-container{
+    height: auto;
+    width: 80%;
+}
+.gallery-sec h5{
+    color: brown;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: underline;
+
+}
+.gallery-main{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.gallery{
+    /* border: 1px solid black; */
+    margin-top: 5px;
+    flex-basis: 28%;
+    height: auto;
+}
+.gallery img{
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+}
+/* example */
+.example-sec{
+width: 100%;
+height: 50vh;
+display: flex;
+align-items: center;
+justify-content: center;
+/* border: 1px solid black; */
+}
+
+.example-container{
+    height: auto;
+    width: 80%;
+}
+.example-container h5{
+    color: brown;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: underline;
+   
+}
+.example-container p{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    font-size: 22px;
+
+}
+.example-main{
+    width: 100%;
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.example-main .example{
+    border: 5px dashed red;
+    flex-basis: 30%;
+    height: auto;
+    border-radius: 5px;
+}
+.example img{
+    height: 100%;
+    width: 100%;
+    transform: rotate(3deg);
+}
+
+/* contact */
+.contact-form{
+    width: 100%;
+    height:58vh;
+    background-color:aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-head{
+    padding: 2px 5px;
+    width: 80%;
+    height: inherit;
+    text-align: center;
+    /* border: 1px solid white; */
+}
+.form-head h5{
+    color: brown;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: underline;
+
+}
+.contact-form .head{
+    text-align: center;
+    /* text-decoration: underline; */
+    margin-bottom: 2px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+
+    font-size: 25px;
+
+}
+.form{
+    margin-top: 5px;
+    /* border: 1px solid white; */
+    padding-top:8px;
+}
+input{
+    background-color: transparent;
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+}
+textarea{
+    width: 500px;
+    height: 80px;
+    background-color: transparent;
+}
+label{
+    color: whitesmoke;
+    font-size: 22px;
+}
+#btn{
+    margin-top: 8px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 3px 15px;
+    transition: 2s;
+}
+#btn:hover{
+    color: white;
+    background-color: red;
+}
+::placeholder{
+    color: orange;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+input:focus::placeholder{
+    color:black;
+}
+textarea:focus::placeholder{
+    color:black;
+}
+
+
+/* footer */
+/* footer */
+.footer{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
+.container-footer{
+    width: 80%;
+    /* border: 1px solid white; */
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icons{
+    width: 45%;
+    /* border: 1px solid red; */
+    text-align: center;
+
+}
+.icons i{
+color: whitesmoke;
+    padding: 12px 10px;
+    font-size: 25px;
+    transition: 3s;
+}
+.icons i:hover{
+    color: red;
+    cursor: pointer;
+
+}
+.link{
+    width: 45%;
+    text-align: center;
+    /* border: 1px solid red; */
+
+}
+.link li{
+    padding: 8px 2px;
+    transition: 3s;
+    font-size: 18px;
+    
+}
+.link li:hover{
+    cursor: pointer;
+    color: red;
+    text-decoration: underline;
+
+}
