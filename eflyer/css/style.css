@@ -1,0 +1,497 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid yellowgreen; */
+    background: url('../images/banner-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+}
+
+.header-container {
+    width: 80%;
+    height: inherit;
+    /* border: 1px solid red; */
+}
+
+.nav {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid green; */
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 0px;
+}
+
+.menu ul {
+    height: auto;
+}
+
+.menu ul li {
+    height: auto;
+    display: inline-block;
+    /* border: 1px solid rebeccapurple; */
+    line-height: 70px;
+    padding: 0px 95px;
+}
+
+.menu ul li a {
+    font-size: 18px;
+    color: whitesmoke;
+    padding: 0px;
+    transition: 2s;
+
+    font-family: 'Chivo Mono', monospace;
+
+}
+
+.menu ul li a:hover {
+    color: tomato;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid green; */
+    text-align: center;
+}
+
+.logo h1 {
+    color: whitesmoke;
+    letter-spacing: 2px;
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid green; */
+    text-align: center;
+    color: whitesmoke;
+
+
+}
+
+.banner h1 {
+    padding-top: 60px;
+    font-size: 60px;
+    font-family: 'Tilt Prism', cursive;
+    line-height: 60px;
+
+}
+
+.banner button {
+    margin-top: 40px;
+    background-color: transparent;
+    padding: 10px;
+    background-color: black;
+    border-radius: 5px;
+    color: whitesmoke;
+    transition: 2s;
+    opacity: 0.8;
+    text-align: center;
+
+}
+
+.banner button:hover {
+    opacity: 0.8;
+
+    background-color: orangered;
+}
+
+/* fashion */
+.fashion-sec{
+    margin-top: 5px;
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid yellowgreen; */
+}
+.fashion-container{
+    width: 80%;
+    height: auto;
+    /* border: 1px solid red; */
+}
+.fashion-container h1{
+    font-family: 'Sedgwick Ave Display', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+.fashion{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid gray; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.fashion-child{
+    border-radius: 10px;
+
+    flex-basis: 30%;
+    height: 430px;
+    /* border: 1px solid purple; */
+    text-align: center;
+    /* background-color: red; */
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.fashion-child h5{
+    font-size: 23px;
+    font-family: 'DynaPuff', cursive;
+    margin-top: 5px;
+}
+.price span{
+    color: orangered;
+    font-size: 20px;
+}
+.fashion-child img{
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+    transition: 2s;
+}
+.fashion-child img:hover{
+    transform: scale(1.1);
+}
+.fashion-child button{
+    margin-top: 12px;
+    color: orange;
+    background-color: black;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 2s;
+}
+.fashion-child button:hover{
+    transform: scale(1.2);
+    background-color: whitesmoke;
+    color: black;
+
+}
+/* electronic */
+
+.electronic-sec{
+    margin-top: 5px;
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid yellowgreen; */
+}
+.electronic-container{
+    width: 80%;
+    height: auto;
+    /* border: 1px solid red; */
+}
+.electronic-container h1{
+    font-family: 'Sedgwick Ave Display', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+.electronic{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid gray; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.electronic-child{
+    flex-basis: 30%;
+    height: 430px;
+    /* border: 1px solid purple; */
+    text-align: center;
+    background-color: ghostwhite;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+.electronic-child h5{
+    font-size: 23px;
+    font-family: 'DynaPuff', cursive;
+    margin-top: 5px;
+}
+.elec span{
+    color: orangered;
+    font-size: 20px;
+}
+.electronic-child img{
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+    transition: 2s;
+}
+.electronic-child img:hover{
+    transform: scale(1.1);
+}
+.electronic-child button{
+    margin-top: 12px;
+    color: orange;
+    background-color: black;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 2s;
+}
+.electronic-child button:hover{
+    transform: scale(1.2);
+    background-color: whitesmoke;
+    color: black;
+
+}
+
+/* jwellery */
+
+.jwellery-sec{
+    margin-top: 5px;
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid yellowgreen; */
+}
+.jwellery-container{
+    width: 80%;
+    height: auto;
+    /* border: 1px solid red; */
+}
+.jwellery-container h1{
+    font-family: 'Sedgwick Ave Display', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+.jwellery{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid gray; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.jwellery-child{
+    flex-basis: 30%;
+    height: 430px;
+    /* border: 1px solid purple; */
+    text-align: center;
+    background-color: ghostwhite;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+.jwellery-child h5{
+    font-size: 23px;
+    font-family: 'DynaPuff', cursive;
+    margin-top: 5px;
+}
+.jwe span{
+    color: orangered;
+    font-size: 20px;
+}
+.jwellery-child img{
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+    transition: 2s;
+}
+.jwellery-child img:hover{
+    transform: scale(1.1);
+}
+.jwellery-child button{
+    margin-top: 12px;
+    color: orange;
+    background-color: black;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 2s;
+}
+.jwellery-child button:hover{
+    transform: scale(1.2);
+    background-color: whitesmoke;
+    color: black;
+
+}
+/* about */
+.about-sec{
+    margin-top: 5px;
+    width: 100%;
+    height: 60vh;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-container{
+    width: 80%;
+    /* border: 1px solid greenyellow; */
+    height: auto;
+}
+.about-container h1{
+    font-family: 'Sedgwick Ave Display', cursive;
+    text-align: center;
+    font-size: 30px;
+
+}
+.about-container .about{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    /* border: 1px solid blue; */
+}
+.about-child{
+    flex-basis: 45%;
+    /* border: 1px solid red; */
+    width: auto;
+    height: auto;
+}
+.about-child img{
+    height: 260px;
+    width: 100%;
+
+}
+.about-child p{
+    padding: 5px 25px;
+    font-size: 25px;
+    text-align: justify;
+    line-height: 30px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* footer */
+.footer-sec{
+    margin-top: 5px;
+
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+}
+.footer-container{
+    width: 80%;
+    /* border: 1px solid white; */
+    height: auto;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-child{
+    margin-top: 8px;
+    /* border: 1px solid white; */
+    height: auto;
+    width: auto;
+}
+.footer-child h1{
+    color: whitesmoke;
+    letter-spacing: 3px;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.footer-child input{
+    width: 300px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+
+}
+::placeholder{
+    font-family: 'Poppins', sans-serif;
+
+    text-align: center;
+    color: whitesmoke;
+    
+}
+.footer-child button{
+    margin-left: 5px;
+    color: orange;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: 2s;
+
+}
+.footer-child button:hover{
+    color: whitesmoke;
+}
+.footer-child li{
+    padding: 5px 30px;
+    display: inline-block;
+
+}
+.footer-child li a{
+color: whitesmoke;
+font-size: 18px;
+transition: 2s;
+}
+.footer-child li a:hover{
+    color: orange;
+}
+.footer-child p{
+    color: whitesmoke;
+    padding: 2px 20px;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+input:focus{
+outline:none;
+}
